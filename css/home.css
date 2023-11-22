@@ -1,1 +1,90 @@
 /* Group project */
+body{
+    margin: 0px;
+   }
+nav{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 10px;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+img{
+    min-width: 100%;
+}
+
+/*
+footer{
+background-color: rgb(41, 40, 40);
+color:aliceblue;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+*/
+
+.footer-nav li{
+    list-style-type: none;
+}
+.footer-nav li a{
+    text-decoration: none;
+}
+
+.footer-left{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer-center{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+.footer-right{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    footer {
+        background-color: brown;
+        color:aliceblue;
+    }
+    .footer-content{
+        display: block;
+        justify-content: center;
+        margin: 5%;
+    }
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    footer{
+        background-color: rgb(41, 40, 40);
+        color:aliceblue;
+        }
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+    }
+  } 
+  
+
+  
