@@ -70,7 +70,11 @@ color:aliceblue;
         justify-content: center;
         margin: 5%;
     }
-
+    nav li{
+        list-style-type: none;
+        display: block;
+    }
+    
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -84,6 +88,10 @@ color:aliceblue;
         justify-content: space-between;
         margin: 5%;
     }
+nav li{
+    list-style-type: none;
+    display: inline;
+}
   } 
   
 
