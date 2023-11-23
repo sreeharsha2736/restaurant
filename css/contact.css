@@ -92,6 +92,26 @@ body{
        list-style-type: none;
        display: inline;
    }
+   #map {
+    position: reltive;
+    overflow: hidden;
+    width: 80%;
+    
+    }
+
+    #leftbox {
+        float:left; 
+        background-color: #fff ;
+        width:20%;
+        height:100px;
+    }
+    
+    #rightbox{
+        float:right;
+        background-color: #fff;
+        width:70%;
+        height:100px;
+    }
      } 
      
    
