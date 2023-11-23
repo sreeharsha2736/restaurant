@@ -1,0 +1,124 @@
+/* Group project */
+body{
+    margin: 0px;
+   }
+nav{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 10px;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+/*
+footer{
+background-color: rgb(41, 40, 40);
+color:aliceblue;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+*/
+
+.footer-nav li{
+    list-style-type: none;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-left{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer-center{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+.footer-right{
+    padding:3%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 460px) {
+    footer{
+        background-color: rgb(41, 40, 40);
+        color:aliceblue;
+        }
+    .footer-content{
+        display: block;
+        justify-content: center;
+        margin: 5%;
+    }
+    nav li{
+        list-style-type: none;
+        display: block;
+    } 
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 460px) {
+    footer{
+        background-color: rgb(41, 40, 40);
+        color:aliceblue;
+        }
+    .footer-content{
+        display: block;
+        justify-content: center;
+        margin: 5%;
+    }
+    nav li{
+        list-style-type: none;
+        display: block;
+    } 
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    footer{
+        background-color: rgb(41, 40, 40);
+        color:aliceblue;
+        }
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+    }
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+#button{
+    text-align: center;
+}
+  } 
+  
+
+  
