@@ -17,8 +17,16 @@ nav a{
     padding: 10px;
 }
 img{
-    min-width: 100%;
+    width: 100%;
 }
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+  }
 
 /*
 footer{
@@ -38,6 +46,7 @@ color:aliceblue;
 }
 .footer-nav li a{
     text-decoration: none;
+    color: aliceblue;
 }
 
 .footer-left{
@@ -58,13 +67,11 @@ color:aliceblue;
 }
 
 
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    footer {
-        background-color: brown;
+@media only screen and (max-width: 460px) {
+    footer{
+        background-color: rgb(41, 40, 40);
         color:aliceblue;
-    }
+        }
     .footer-content{
         display: block;
         justify-content: center;
@@ -73,8 +80,24 @@ color:aliceblue;
     nav li{
         list-style-type: none;
         display: block;
+    } 
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 460px) {
+    footer{
+        background-color: rgb(41, 40, 40);
+        color:aliceblue;
+        }
+    .footer-content{
+        display: block;
+        justify-content: center;
+        margin: 5%;
     }
-    
+    nav li{
+        list-style-type: none;
+        display: block;
+    } 
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
