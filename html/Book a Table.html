@@ -18,18 +18,18 @@
       <li><a href="./menu.html">Menu</a></li>
       <li><a href="./aboutus.html">About</a></li>
       <li><a href="./contact.html">Contact</a></li> 
-      <li><a href="./catering.html">Catering</a></li> 
+      <li><a href="./Book a Table.html">Book a Table</a></li> 
     </ol>
   </nav>
 
- <form name="bw-catering-form" method="post" novalidate="novalidate">
+ <form name="bw-catering-form" method="post" action="confirmation.html">
     <div>
         <div>
             <div >
                 <br>
                 <div >
                     <label for="">NAME</label>
-                    <input type="text"  id="full_name" name="full_name" >
+                    <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
                    
                 </div>
                 <br>
@@ -37,7 +37,7 @@
             <div >
                 <div >
                     <label for="">PHONE</label>
-                    <input type="text"  id="phone_number" name="phone_number" >
+                    <input type="text"  id="phone_number" name="phone_number" required placeholder="###-###-####" >
                    
 
                 </div>
