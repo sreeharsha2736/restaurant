@@ -7,13 +7,18 @@ body{
     font-size: 20px;
     font-weight: bolder;
    }
-   #logo{
+#logo{
     width: 14%;
    }
 nav{
     background-color: rgb(37, 37, 37);
     padding: 10px;
     display: block;
+}
+.active-page{
+    color: rgb(190, 190, 3);
+    font-size:larger;
+    text-shadow: 1px 1px rgb(239, 66, 66);
 }
 nav ol{
     text-align: center;
@@ -27,13 +32,20 @@ nav a{
     text-decoration: none;
     padding: 10px;
 }
+nav a:hover{
+    color: yellow;
+    text-shadow: 1px 1px rgb(188, 140, 140);
+}
 #home-image{
     width: 100%;
 }
 #footer-logo{
     width: 100%;
    }
-
+footer a{
+    text-decoration: none;
+    color:rgb(106, 135, 159);
+}
 /*article*/
 
 
@@ -88,6 +100,7 @@ color:aliceblue;
     padding:1%;
     text-align: center;
     display: inline-block;
+    word-wrap: break-word;
 }
 
 
@@ -137,10 +150,10 @@ color:aliceblue;
     text-align: center;
     width: 60%;
     display: inline-block;
-}
-#footer-logo{
-width: 60%;
-}
+    }
+    #footer-logo{
+        width: 60%;
+    }
     .footer-center{
         padding:2%;
         text-align: center;
@@ -165,7 +178,7 @@ width: 60%;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     article{
         display: flex;
         justify-content: space-between;
@@ -196,7 +209,7 @@ width: 60%;
         color:aliceblue;
         }
     #footer-content{
-        display: flex;
+        display: inline-block;
         justify-content: center;
     }
     .footer-left{
@@ -208,9 +221,9 @@ width: 60%;
     #footer-logo-content{
     padding:2%;
     text-align: center;
-    width:45%;
+    width:30%;
     display: inline-block;
-}
+    }
     .footer-center{
         padding:2%;
         text-align: center;
@@ -236,7 +249,7 @@ width: 60%;
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     nav li{
         list-style-type: none;
          display: inline;
@@ -277,7 +290,7 @@ width: 60%;
     text-align: center;
     width: 25%;
     display: inline-block;
-}
+    }
     .footer-center{
         padding:2%;
         text-align: center;
@@ -301,7 +314,6 @@ width: 60%;
         float: left;
         width: 13%;
     }
-
   } 
   
 
