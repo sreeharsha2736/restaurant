@@ -45,8 +45,8 @@ footer a{
 }
 
 footer{
-background-color: rgb(41, 40, 40);
-color:aliceblue;
+    background-color: rgb(41, 40, 40);
+    color:aliceblue;
 }
 
 #footer-content{
@@ -105,10 +105,10 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width: 60%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width: 60%;
+        display: inline-block;
     }
     #footer-logo{
         width: 60%;
