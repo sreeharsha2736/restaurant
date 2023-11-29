@@ -10,6 +10,14 @@ body{
 #logo{
     width: 14%;
    }
+#starters-box{
+    background-image: url(https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg);
+    padding: 40px;
+    text-decoration: none;
+    color: rgb(128, 21, 21);
+    border: 10px solid red ;
+    margin: 5%;
+}
 nav{
     background-color: rgb(37, 37, 37);
     padding: 10px;

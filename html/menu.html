@@ -6,6 +6,16 @@
   <title>Sample Restaurant</title>
   <link rel="stylesheet" type="text/css" href="../css/menu.css">
 
+  <style>
+    .expand-btn {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+    .menu-table {
+      display: none;
+    }
+  </style>
 </head>
 <body>
     <header>
@@ -21,10 +31,22 @@
       </nav>
     </header>
 
+    <script>
+        function toggleTable(tableId) {
+          var table = document.getElementById(tableId);
+          if (table.style.display === 'none' || table.style.display === '') {
+            table.style.display = 'table';
+          } else {
+            table.style.display = 'none';
+          }
+        }
+      </script>
+
 <main>
-    <label for="list1">Starters</label>
-    <input type="checkbox" id="list1" checked>
-        <table >
+    <div id="starters-box" class="expand-btn" onclick="toggleTable('table1')">
+        <h1>Starters</h1>
+    </div>   
+        <table id="table1" class="menu-table">
             <thead>
                 <tr>
                     <th><span>Veg/Non-Veg </span> </th>
