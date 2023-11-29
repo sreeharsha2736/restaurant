@@ -9,26 +9,18 @@
        }
     
    .info-box{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
+    border: 2px solid rgb(211, 211, 209);
+    background-color: rgb(211, 211, 209);
     padding: 13%;
     margin: 5%;
     width: 60%;
-    border-radius: 4px;
+    border-radius: 8px;
     display: block;
     justify-content: space-between;
    }
    .icon-image{
     width: 100px;
     padding: 20px;
-   }
-   #rightbox{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
-    padding: 13%;
-    margin: 5%;
-    width: 60%;
-    border-radius: 4px;
    }
    #map{
     width: 100%;
@@ -44,26 +36,18 @@
        }
     
    .info-box{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
+    border: 2px solid rgb(211, 211, 209);
+    background-color: rgb(211, 211, 209);
     padding: 20%;
     margin: 0% 5% 5%;
     width: 75%;
-    border-radius: 4px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-around;
    }
    .icon-image{
     width: 80px;
     padding: 20px;
-   }
-   #rightbox{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
-    padding: 33%;
-    margin: 25%;
-    width: 80%;
-    border-radius: 4px;
    }
    #map{
     float:left;
@@ -84,22 +68,14 @@
        }
     
    .info-box{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
+    border: 2px solid rgb(211, 211, 209);
+    background-color: rgb(211, 211, 209);
     padding: 20%;
     margin: 5%;
     width: 70%;
-    border-radius: 4px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-around;
-   }
-   #rightbox{
-    border: 2px solid rgb(183, 179, 179);
-    background-color: rgb(159, 158, 156);
-    padding: 33%;
-    margin: 25%;
-    width: 80%;
-    border-radius: 4px;
    }
    #map{
     width: 450px;
