@@ -2,9 +2,10 @@
 body{
     margin: 0px;
     background-color: rgb(78, 78, 78);
+    background-size:contain ;
     color: rgb(228, 220, 152);
+    font-size: 20px;
     font-weight: bolder;
-    padding-bottom: 10;
    }
 .container {
     display: flex; /* Use flexbox for layout */

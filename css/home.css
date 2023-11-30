@@ -46,33 +46,71 @@ nav a:hover{
     position: relative;
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
+
+.menu-card{
+    border: 2px solid rgb(97, 87, 87);
+    border-radius: 6px;
+    margin: 6px;
+}
+.menu-card h2{
+    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    padding: 12%;
+    margin: 0%;
+}
+.menu-description{
+    padding: 8%;
+}
+.menu-icon{
+    width: 120px;
+}
+button {
+    background-color: rgb(190, 190, 3);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+#about-description{
+    padding: 10%;
+    background-color: rgba(61, 56, 56, 0.474);
+}
+#about-card{
+    padding: 10%;
+    background: linear-gradient(6deg, rgba(61, 60, 60, 0.5) 0%, rgba(78, 77, 76, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 12%;
+    position: relative;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
 #footer-logo{
     width: 100%;
-   }
+}
 footer a{
     text-decoration: none;
     color:rgb(106, 135, 159);
 }
-
-/*article*/
-
-
 .review-card{
     margin:5%;
     border: rgb(212, 205, 205) solid 2px;
     padding:8px;
 }
-
-.preview-card{
+.menu-preview{
     margin:5%;
-    border: rgb(212, 205, 205) solid 2px;
     padding:8px;
 }
 
-
 footer{
-background-color: rgb(41, 40, 40);
-color:aliceblue;
+    background-color: rgb(41, 40, 40);
+    color:aliceblue;
 }
 
 #footer-content{
@@ -114,10 +152,6 @@ color:aliceblue;
 
 @media only screen and (max-width: 768px) {
 
-    article{
-        display: block;
-        justify-content: space-between;
-    }
     #food-top-row{
         display: block;
         justify-content: space-between;
@@ -132,11 +166,13 @@ color:aliceblue;
         width: 80%;
         margin: 8%;
     }
-    #page-preview{
+    #menu-preview{
         display: block;
         justify-content: space-between;
     }
-
+    #menu-block{
+        display: block;
+    }
     footer{
         background-color: rgb(41, 40, 40);
         color:aliceblue;
@@ -154,10 +190,10 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width: 60%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width: 60%;
+        display: inline-block;
     }
     #footer-logo{
         width: 60%;
@@ -183,14 +219,24 @@ color:aliceblue;
     #logo{
         width: 40%;
     }
+    .review-cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .review-box {
+        max-width: 1200px;
+        margin: auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .review-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    article{
-        display: flex;
-        justify-content: space-between;
-    }
 
     #food-top-row{
         display: flex;
@@ -207,11 +253,13 @@ color:aliceblue;
         margin: 3%;
     }
 
-    #page-preview{
+    #menu-preview{
         display: block;
         justify-content: space-between;
     }
-
+    #menu-block{
+        display: flex;
+    }
     footer{
         background-color: rgb(41, 40, 40);
         color:aliceblue;
@@ -227,10 +275,10 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width:30%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width:30%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -254,6 +302,10 @@ color:aliceblue;
         float: left;
         width: 20%;
     }
+    .review-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -266,10 +318,6 @@ color:aliceblue;
          float: left;
          width: 15%;
         }
-    article{
-        display: flex;
-        justify-content: space-between;
-    }
     #food-top-row{
         display: flex;
         justify-content: space-between;
@@ -284,10 +332,21 @@ color:aliceblue;
         width: 26%;
         margin: 3%;
     }
-    #page-preview{
+    #menu-preview{
         display: block;
         justify-content: space-between;
     }
+    #menu-block{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-row{
+        display: flex;
+    }
+    .review-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     .footer-left{
         padding:2%;
         text-align: center;
@@ -295,9 +354,9 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    text-align: center;
-    width: 25%;
-    display: inline-block;
+        text-align: center;
+        width: 25%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -322,7 +381,60 @@ color:aliceblue;
         float: left;
         width: 13%;
     }
+    
   } 
   
-
+  .review-description{
+    padding: 8%;
+  }
+  .review-description h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
   
+  .review-description p {
+    margin-bottom: 1rem;
+  }
+  
+  .review-card {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .review-card img {
+    max-width: 75px;
+    border-radius: 100%;
+    margin-top: 7%;
+    margin-left: 3%;
+  }
+  
+  .review-content {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .review-details p {
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding: 4%;
+  }
+  
+  .review-details h4 {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  article{
+    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 4%;
+    position: relative;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
