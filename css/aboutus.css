@@ -10,6 +10,21 @@ body{
 #logo{
     width: 14%;
    }
+
+#main-image{
+    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 12%;
+    position: relative;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+#mainheading{
+    justify-content: center;
+    display: flex;
+}
 nav{
     background-color: rgb(37, 37, 37);
     padding: 10px;
@@ -154,10 +169,10 @@ footer{
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width:30%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width:30%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -214,9 +229,9 @@ footer{
     }
 
     #footer-logo-content{
-    text-align: center;
-    width: 25%;
-    display: inline-block;
+        text-align: center;
+        width: 25%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -243,13 +258,6 @@ footer{
     }
   } 
   
-
-  
-
-#mainheading{
-    justify-content: center;
-    display: flex;
-}
   
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 460px) {
@@ -275,23 +283,23 @@ footer{
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-#famous-food{
-    display: flex;
-    justify-content: center;
-}
-.dish-image{
-    display: inline;
-    width: 50%;
-}
-#famous-dish{
-    display: inline;
-    text-align: end;
-}
-#food-content{
-    text-align: start;
-    margin-right: 10%;
-    padding-left: 5%;
-}
+    #famous-food{
+        display: flex;
+        justify-content: center;
+    }
+    .dish-image{
+        display: inline;
+        width: 50%;
+    }
+    #famous-dish{
+        display: inline;
+        text-align: end;
+    }
+    #food-content{
+        text-align: start;
+        margin-right: 10%;
+        padding-left: 5%;
+    }
   } 
   
 

@@ -10,6 +10,28 @@ body{
 #logo{
     width: 14%;
    }
+
+#main-image{
+    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 12%;
+    position: relative;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+#button{
+    text-align: center;
+}
 nav{
     background-color: rgb(37, 37, 37);
     padding: 10px;
@@ -45,8 +67,8 @@ footer a{
 }
 
 footer{
-background-color: rgb(41, 40, 40);
-color:aliceblue;
+    background-color: rgb(41, 40, 40);
+    color:aliceblue;
 }
 
 #footer-content{
@@ -105,10 +127,10 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width: 60%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width: 60%;
+        display: inline-block;
     }
     #footer-logo{
         width: 60%;
@@ -154,10 +176,10 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    padding:2%;
-    text-align: center;
-    width:30%;
-    display: inline-block;
+        padding:2%;
+        text-align: center;
+        width:30%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -214,9 +236,9 @@ color:aliceblue;
     }
 
     #footer-logo-content{
-    text-align: center;
-    width: 25%;
-    display: inline-block;
+        text-align: center;
+        width: 25%;
+        display: inline-block;
     }
     .footer-center{
         padding:2%;
@@ -243,19 +265,5 @@ color:aliceblue;
     }
   } 
   
-
-  
-
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-  }
-
-#button{
-    text-align: center;
-}
 
   
