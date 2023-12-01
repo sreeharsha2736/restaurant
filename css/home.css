@@ -46,7 +46,10 @@ nav a:hover{
     position: relative;
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
-
+.heading-center{
+    display: flex;
+    justify-content: center;
+}
 .menu-card{
     border: 2px solid rgb(97, 87, 87);
     border-radius: 6px;
@@ -76,6 +79,11 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
+button a{
+    text-decoration: none;
+    color: rgb(226, 213, 213);
+    text-shadow: 1px 1px rgb(43, 41, 41);
+}
 #about-description{
     padding: 7%;
     background-color: rgba(61, 56, 56, 0.474);
