@@ -77,17 +77,16 @@ button {
     cursor: pointer;
   }
 #about-description{
-    padding: 10%;
+    padding: 7%;
     background-color: rgba(61, 56, 56, 0.474);
 }
 #about-card{
-    padding: 10%;
     background: linear-gradient(6deg, rgba(61, 60, 60, 0.5) 0%, rgba(78, 77, 76, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
-    padding: 12%;
+    padding: 5%;
     position: relative;
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
@@ -429,7 +428,7 @@ footer{
     font-weight: 500;
   }
   article{
-    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%),url('https://t3.ftcdn.net/jpg/03/07/75/90/240_F_307759003_iyOPUqKa6yy6a6tpUW0BQ4CSt38OMHTv.jpg');
+    background: linear-gradient(6deg, rgba(23, 10, 10, 0.5) 0%, rgba(120, 116, 77, 0.6) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
