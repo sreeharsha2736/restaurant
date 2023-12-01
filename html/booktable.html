@@ -27,69 +27,31 @@
     <h1 id="main-image"> Book a Table</h1>
   </div>
  <form name="bw-catering-form" method="post" action="./confirmation.html">
-    <div>
-        <div>
-            <div >
-                <br>
-                <div >
-                    <label for="full_name">NAME</label>
-                    <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
-                   
-                </div>
-                <br>
-            </div>
-            <div >
-                <div >
-                    <label for="phone_number">PHONE</label>
-                    <input type="text"  id="phone_number" name="phone_number"  placeholder="###-###-####" required>
-                   
+   
+      <label for="full_name">NAME</label>
+      <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
 
-                </div>
-                <br>
-            </div>
-        </div>
-        <div>
-            <div >
-                <div >
-                   <label for="email">Email ID</label>
-                    <input type="text"  id="email" name="email" >
-                   
-                </div>
-                <br>
-            </div>
-            <div >
-                <div >
-                    <label for="no_of_people">Number of People</label>
-                    <input type="text"  id="no_of_people" name="no_people" required>
-                    
+      <label for="phone_number">PHONE</label>
+      <input type="text"  id="phone_number" name="phone_number"  placeholder="###-###-####" required>
+      
+      <label for="email">Email ID</label>
+      <input type="text"  id="email" name="email" >
+      
+      <label for="no_of_people">Number of People</label>
+      <input type="text"  id="no_of_people" name="no_people" required>
+    
+      <label for="book_date">Booking Date</label>
+      <input type="date"  id="book_date" name="book_date" required>
+      
+      <label for="time">Time</label>
+      <input type="time"  id="time" name="time" required>
 
-                </div>
-                <br>
-            </div>
-        </div>
-        <div>
-            <div >
-                <div >
-                    <label for="book_date">Booking Date</label>
-                    <input type="date"  id="book_date" name="book_date" required>
-                    
-                </div>
-                <br>
-            </div>
-            <div >
-                <div >
-                    <label for="time">Time</label>
-                    <input type="time"  id="time" name="time" required>
-
-                </div>
-                <br>
-            </div>
-        </div>
-        
-        <div id="button">
-            <button type="submit">Book a Table</button>
-        </div>
-    </div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+  
+      <div id="button">
+          <button type="submit" >Book a Table</button>
+      </div>
 </form>
 
 </main>
