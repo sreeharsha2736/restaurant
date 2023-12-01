@@ -29,8 +29,23 @@ aside {
     background-color: lightgray;
   }
 
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+button:hover {
+    background-color: #45a049;
+}
+
 #button{
     text-align: center;
+    margin-bottom: 10px;
 }
 nav{
     background-color: rgb(37, 37, 37);
