@@ -343,8 +343,8 @@ footer{
         font-size: 130%;
     }
     .container img {
-        width:60%;
-        height: 30%;
+        width:50%;
+        height: 25%;
         }
     #famous-food{
         display: flex;
