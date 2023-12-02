@@ -7,6 +7,8 @@
     border: 2px solid rgb(96, 87, 87);
     border-radius: 12px;
     margin: 6px;
+    height: 300px;
+    width:50%;
 }
 .menu-card h2{
     background: linear-gradient(to right, #232526, #414345);
@@ -16,9 +18,7 @@
 .menu-description{
     padding: 8%;
 }
-.menu-icon{
-    width: 120px;
-}
+
 button {
     background-color: rgb(190, 190, 3);
     border: none;
