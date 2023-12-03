@@ -36,7 +36,8 @@ button a{
     text-shadow: 1px 1px rgb(43, 41, 41);
 }
 
-@media only screen and (max-width: 768px) {aside {
+@media only screen and (max-width: 768px) {
+    aside {
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;
@@ -66,7 +67,8 @@ button:hover {
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {aside {
+@media only screen and (min-width: 768px) {
+aside {
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;
@@ -96,7 +98,8 @@ button:hover {
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {aside {
+@media only screen and (min-width: 992px) {
+    aside {
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;

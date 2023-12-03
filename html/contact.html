@@ -63,13 +63,34 @@
     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11522.90984224928!2d-79.346555!3d43.77851595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3d4a2560425%3A0xa1f2052e51784943!2sForest%20Cafe!5e0!3m2!1sen!2sca!4v1696961064246!5m2!1sen!2sca"  style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </section>
+<div class="heading-center">
+  <h1>Contact us</h1>
+</div>
+<form id="bw-catering-form" name="bw-catering-form" method="post" action="./sendmessage.html">
+   
+  <label for="full_name">NAME</label>
+  <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
+
+  <label for="phone_number">PHONE</label>
+  <input type="tel"  id="phone_number" name="phone_number"  placeholder="##########"  pattern="[0-9]{10}" required>
+  
+  <label for="email">Email ID</label>
+  <input type="email"  id="email" name="email" ><br>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4"></textarea>
+
+  <div id="button">
+      <button type="submit">Send Message</button>
+  </div>
+</form>
 <div id="subscribe-content">
   <h3>Subscribe to Happening</h3>
   <h5>Get all the offers on our menu to you!!!</h5>
-  <form name="subscribe">
+  <div id="subscribe">
     <input name="email" type="email" placeholder="Email" required>
     <button type="submit">Subscribe</button>
-  </form>
+  </div>
 </div>
 </main>
 
