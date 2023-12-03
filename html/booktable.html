@@ -12,7 +12,7 @@
 <body>
   <header>
     <nav>
-      <div id="logo-content"><img src="../img/logo.png" id="logo"></div>
+      <div id="logo-content"><img src="./img/logo.png" id="logo" alt="main logo"></div>
       <ol>
         <li><a href="../home.html">Home</a></li>
         <li><a href="./menu.html">Menu</a></li>
@@ -27,7 +27,7 @@
   <div>
     <h1 id="main-image"> Book a Table</h1>
   </div>
- <form name="bw-catering-form" method="post" action="./confirmation.html">
+ <form id="bw-catering-form" name="bw-catering-form" method="post" action="./confirmation.html">
    
       <label for="full_name">NAME</label>
       <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
@@ -39,7 +39,7 @@
       <input type="email"  id="email" name="email" >
       
       <label for="no_of_people">Number of People</label>
-      <input type="text"  id="no_of_people" name="no_people" required>
+      <input type="number"  id="no_of_people" name="no_people" max="12" required>
     
       <label for="book_date">Booking Date</label>
       <input type="date"  id="book_date" name="book_date" required>
@@ -58,10 +58,10 @@
 </main>
 <footer>
   <div id="footer-content">
-    <div id="footer-logo-content"><img src="../img/logo.png" id="footer-logo"></div>
+    <div id="footer-logo-content"><img src="../img/logo.png" id="footer-logo" alt="footer-logo"></div>
     
     <div class="footer-left">
-      <span><h4>Explore more about Happening here</h4></span>
+      <h4>Explore more about Happening here</h4>
       <ol class="footer-nav">
         <li><a href="./home.html">Home</a></li>
         <li><a href="./menu.html">Menu</a></li>
@@ -79,8 +79,8 @@
     </div>
 
     <div class="footer-right">
+      <h3>Why Happening?</h3>
       <p class="footer-company-about">
-       <h3>Why Happening?</h3>
         The aromatic brilliance of rich Indian<br>
         spices are blended into every recipe<br>
         we prepare.What makes us special is that<br>

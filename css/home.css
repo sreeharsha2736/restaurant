@@ -1,13 +1,17 @@
 /* Group project */
 .heading-center{
+    margin-top: 2%;
     display: flex;
     justify-content: center;
+}
+.menu-preview{
+    margin:5%;
+    padding:8px;
 }
 .menu-card{
     border: 2px solid rgb(96, 87, 87);
     border-radius: 12px;
     margin: 6px;
-    height: 300px;
     width:50%;
 }
 .menu-card h2{
@@ -19,24 +23,20 @@
     padding: 8%;
 }
 
-button {
+.link-button:link, .link-button:visited {
     background-color: rgb(190, 190, 3);
-    border: none;
     border-radius: 8px;
     color: white;
-    padding: 15px 32px;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-button a{
-    text-decoration: none;
-    color: rgb(226, 213, 213);
-    text-shadow: 1px 1px rgb(43, 41, 41);
 }
+
+.link-button:hover, .link-button:active {
+    background-color: rgb(202, 202, 81);
+}
+
 #about-description{
     padding: 7%;
     background-color: rgba(61, 56, 56, 0.474);
@@ -51,61 +51,64 @@ button a{
     position: relative;
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
+#about-description a{
+    text-decoration: none;
+}
+
+figcaption{
+    text-align: center;
+}
 .review-card{
     margin:5%;
     border: rgb(212, 205, 205) solid 2px;
     padding:8px;
 }
-.menu-preview{
-    margin:5%;
-    padding:8px;
-}
 
 .review-description{
     padding: 8%;
-  }
-  .review-description h1 {
+}
+.review-description h1 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: 500;
-  }
-  
-  .review-description p {
+}
+
+.review-description p {
     margin-bottom: 1rem;
-  }
-  
-  .review-card {
+}
+
+.review-card {
     display: flex;
     align-items: flex-start;
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-  }
-  
-  .review-card img {
+}
+
+.review-card img {
     max-width: 75px;
     border-radius: 100%;
     margin-top: 7%;
     margin-left: 3%;
-  }
-  
-  .review-content {
+}
+
+.review-content {
     display: flex;
     gap: 1rem;
-  }
+}
 
-  .review-details p {
+.review-details p {
     font-style: italic;
     margin-bottom: 1rem;
     padding: 4%;
-  }
-  
-  .review-details h4 {
+}
+
+.review-details h4 {
     text-align: right;
     font-size: 1rem;
     font-weight: 500;
-  }
-  article{
+}
+article{
     background: linear-gradient(6deg, rgba(146, 138, 138, 0.5) 0%, rgba(52, 51, 41, 0.6) 100%);
     background-position: center;
     background-repeat: no-repeat;
@@ -114,45 +117,41 @@ button a{
     padding: 4%;
     position: relative;
     text-shadow: 2px 2px rgb(0, 0, 0);
-  }
+}
 
 @media only screen and (max-width: 768px) {
 
     #food-top-row{
         display: block;
         justify-content: space-between;
-        margin:4%;
-    }
-    #food-bottom-row{
-        display: block;
-        justify-content: space-between;
-        margin:4%;
+        margin:0% 2% 10% 2%;
     }
     .dish-image{
         width: 80%;
         margin: 8%;
     }
-    #menu-preview{
-        display: block;
-        justify-content: space-between;
-    }
     #menu-block{
         display: block;
+        justify-content: center;
+    }
+    .menu-card{
+        width:90%;
+        height: 100%;
     }
     .review-cards {
         grid-template-columns: repeat(1, 1fr);
       }
-      .review-box {
+    .review-box {
         max-width: 1200px;
         margin: auto;
         padding: 1rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-      }
-      .review-box {
+    }
+    .review-box {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-      }
+    }
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
@@ -161,29 +160,23 @@ button a{
     #food-top-row{
         display: flex;
         justify-content: space-between;
-        margin:4%;
-    }
-    #food-bottom-row{
-        display: flex;
-        justify-content: space-between;
-        margin:4%;
+        margin:0% 4% 4%;
     }
     .dish-image{
-        width: 25%;
+        width: 100%;
         margin: 3%;
     }
-
-    #menu-preview{
-        display: block;
+    #menu-block{
+        display: flex;
         justify-content: space-between;
     }
-    #menu-block{
+    .menu-row{
         display: flex;
     }
     .review-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -191,20 +184,11 @@ button a{
     #food-top-row{
         display: flex;
         justify-content: space-between;
-        margin:2%;
-    }
-    #food-bottom-row{
-        display: flex;
-        justify-content: space-between;
-        margin:2%;
+        margin: 0% 2% 2%;
     }
     .dish-image{
-        width: 26%;
+        width: 100%;
         margin: 3%;
-    }
-    #menu-preview{
-        display: block;
-        justify-content: space-between;
     }
     #menu-block{
         display: flex;
@@ -216,7 +200,7 @@ button a{
     .review-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
     
   } 
   
