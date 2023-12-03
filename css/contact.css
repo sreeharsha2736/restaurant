@@ -25,6 +25,10 @@ button {
     cursor: pointer;
   }
 
+  .info-box a{
+     text-decoration: none;
+     color: rgb(226, 222, 228);
+  }
 
    /* Medium devices (landscape tablets, 768px and up) */
    @media only screen and (max-width: 768px) {
