@@ -1,32 +1,36 @@
-/* Group project */
+
 #main-heading{
-    display: flex;
-    justify-content: center;
     margin-top: 2%;
+    justify-content: center;
+    display: flex;
+
 }
-#menu-list{
+#listmenu{
     margin:0% 10% 10%;
     justify-content: center;
 }
 label{
+    margin-left: 3%;
     padding:4% 39%;
     border: 2px;
-    margin-left: 3%;
+    
 }
 table{
-    color: rgb(176, 161, 142);
     margin-top: 5%;
-    width: 100%;
-    border-collapse: collapse;
     margin-bottom: 20px;
+    border-collapse: collapse;
+    color: rgb(176, 161, 142);
+    width: 100%;
+    
+    
 }
 .menu-type{
-    padding: 5%;
     margin: 2%;
-    border: 2px solid rgb(99, 98, 98);
+    padding: 5%;
     border-radius: 8px;
+    border: 2px solid rgb(99, 98, 98);
 }
-  #list1:checked {
+  #menutype1:checked {
     display: none;
   }
   input[type="checkbox"] {
@@ -45,12 +49,12 @@ table{
 
 @media only screen and (max-width: 768px) {
     .menu-type{
-        padding: 5%;
         margin: 2%;
-        border: 2px solid rgb(99, 98, 98);
+        padding: 5%;
         border-radius: 8px;
+        border: 2px solid rgb(99, 98, 98);
     }
-      #list1:checked {
+      #menutype1:checked {
         display: none;
       }
       input[type="checkbox"] {
@@ -70,12 +74,12 @@ table{
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .menu-type{
-        padding: 5%;
         margin: 2%;
-        border: 2px solid rgb(99, 98, 98);
+        padding: 5%;
         border-radius: 8px;
+        border: 2px solid rgb(99, 98, 98);
     }
-      #list1:checked {
+      #menutype1:checked {
         display: none;
       }
       input[type="checkbox"] {
@@ -95,12 +99,12 @@ table{
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .menu-type{
-        padding: 5%;
         margin: 2%;
-        border: 2px solid rgb(99, 98, 98);
+        padding: 5%;
         border-radius: 8px;
+        border: 2px solid rgb(99, 98, 98);
     }
-      #list1:checked {
+      #menutype1:checked {
         display: none;
       }
       input[type="checkbox"] {

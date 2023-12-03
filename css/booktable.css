@@ -6,15 +6,12 @@ form {
     margin: 0 auto;
     padding: 10%;
 }
-input, select, textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
     border-radius: 10px;
-}
-button:hover {
-    background-color:rgb(190, 190, 3);
 }
 
 button {
@@ -30,34 +27,20 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
-button a{
-    text-decoration: none;
-    color: rgb(226, 213, 213);
-    text-shadow: 1px 1px rgb(43, 41, 41);
-}
+
 
 @media only screen and (max-width: 768px) {
-    aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-  }
 
 form {
     max-width: 400px;
     margin: 0 auto;
 }
-input, select, textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
     border-radius: 10px;
-}
-button:hover {
-    background-color: rgb(190, 190, 3);
 }
 
 #button{
@@ -68,27 +51,16 @@ button:hover {
 
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-  }
-
 form {
     max-width: 400px;
     margin: 0 auto;
 }
-input, select, textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
     border-radius: 10px;
-}
-button:hover {
-    background-color: rgb(190, 190, 3);
 }
 
 #button{
@@ -99,27 +71,17 @@ button:hover {
   
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: italic;
-    background-color: lightgray;
-  }
 
 form {
     max-width: 400px;
     margin: 0 auto;
 }
-input, select, textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
     border-radius: 10px;
-}
-button:hover {
-    background-color: rgb(190, 190, 3);
 }
 
 #button{
