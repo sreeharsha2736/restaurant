@@ -1,19 +1,21 @@
 /* Group project */
 
-
+/* Style the form  */
 form {
     max-width: 400px;
     margin: 0 auto;
     padding: 10%;
 }
+/* Reset some default browser styles  for input ,select, textarea*/
 input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
-    border-radius: 10px;
-}
+    border-radius: 10px; 
 
+}
+/* Style the button */
 button {
     background-color: rgb(190, 190, 3);
     border: none;

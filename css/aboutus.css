@@ -1,23 +1,22 @@
 /* Group project */
+/* Style the heading-center on the aboutus page */
 .heading-center{
     display: flex;
     justify-content: center;
     margin-top: 5%;
     font-size: xx-large;
 }
+/* Used to Style the div on the aboutus page */
 .justified-text {
         text-align: justify;
         font-size: 100%;
         padding-left: 20px;
         padding-right: 20px;
       }
+    
 .justified-font {
     font-family: 'Brush Script MT', cursive;
     font-size: 176%;
-}
-#mainheading{
-    justify-content: center;
-    display: flex;
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,19 +41,7 @@
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
-    }
-    #famous-food{
-        display: block;
-        justify-content: center;
-    }
-    .dish-image{
-        display: inline;
-        width: 60%;
-    }
-    #famous-dish{
-        display: inline;
-        text-align: end;
-    }
+    } 
     #food-content{
         text-align: start;
         margin-right: 10%;
@@ -95,16 +82,6 @@
         display: flex;
         justify-content: space-between;
     }
-    #food-top-row{
-        display: flex;
-        justify-content: space-between;
-        margin:2%;
-    }
-    #food-bottom-row{
-        display: flex;
-        justify-content: space-between;
-        margin:2%;
-    }
     .container {
         display: flex; 
         align-items: center;
@@ -115,23 +92,7 @@
         width:50%;
         height: 25%;
         }
-    #famous-food{
-        display: flex;
-        justify-content: center;
-    }
-    .dish-image{
-        display: inline;
-        width: 50%;
-    }
-    #famous-dish{
-        display: inline;
-        text-align: end;
-    }
-    #food-content{
-        text-align: start;
-        margin-right: 10%;
-        padding-left: 5%;
-    }
+
     .container2 {
         display: flex; 
         align-items: center;

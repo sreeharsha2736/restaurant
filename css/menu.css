@@ -9,12 +9,14 @@
     margin:0% 10% 10%;
     justify-content: center;
 }
+/* Style the label content */
 label{
     margin-left: 3%;
     padding:4% 39%;
     border: 2px;
     
 }
+/* Style the table content */
 table{
     margin-top: 5%;
     margin-bottom: 20px;
@@ -33,6 +35,8 @@ table{
   #menutype1:checked {
     display: none;
   }
+  /* Style the input button  */
+
   input[type="checkbox"] {
     display: none;
   }
