@@ -10,9 +10,12 @@
 </head>
 
 <body>
+  <!--Using the header area for website name or logo -->
   <header>
+    <!--Using the nav area for webpage link --> 
     <nav>
       <div id="logo-content"><img src="./img/logo.png" id="logo" alt="main logo"></div>
+      <!--Used to create a list of items -->
       <ol>
         <li><a href="../home.html">Home</a></li>
         <li><a href="./menu.html">Menu</a></li>
@@ -23,13 +26,18 @@
     </nav>
   </header>
 
+<!--Using the main  area to add webpage -->
 <main>
+  <!--div used as a container -->
   <div>
+    <!--Header sets the title for the corresponding div  -->
     <h1 id="main-image"> Book a Table</h1>
   </div>
- <form id="bw-catering-form" name="bw-catering-form" method="post" action="./confirmation.html">
+  <!--form used for collection of user input on a web page-->
+ <form id="bookatable-form" name="bookatable-form" method="post" action="./confirmation.html">
    
       <label for="full_name">NAME</label>
+       <!--Input tag creates interactive controls within web forms-->
       <input type="text"  id="full_name" name="full_name" minlength="5" maxlength="20" required >
 
       <label for="phone_number">PHONE</label>
@@ -56,6 +64,7 @@
 </form>
 
 </main>
+<!--Used to mark content as the footer of a section or a page -->
 <footer>
   <div id="footer-content">
     <div id="footer-logo-content"><img src="../img/logo.png" id="footer-logo" alt="footer-logo"></div>
