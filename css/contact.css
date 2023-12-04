@@ -40,15 +40,12 @@ form {
      margin: 0 auto;
      padding: 0% 5% 10%;
  }
- input, select, textarea {
+ input, label, textarea {
      width: 100%;
      padding: 10px;
      margin-bottom: 25px;
      box-sizing: border-box;
      border-radius: 10px;
- }
- button:hover {
-     background-color:rgb(190, 190, 3);
  }
 
    /* Medium devices (landscape tablets, 768px and up) */
